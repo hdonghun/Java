@@ -1,5 +1,5 @@
 package Myself_Part1;
-//1. ÀÚ·áÇü(data type) - ½Ç¼ö Ç¥Çö //
+//1. ìžë£Œí˜•(data type) - ì‹¤ìˆ˜ í‘œí˜„ //
 
 public class day1 {
 
@@ -9,30 +9,30 @@ public class day1 {
 		
 		System.out.println(bnum);
 		
-		// int num = 12345678900; #¿À·ù ÀÌÀ¯ out of range
+		// int num = 12345678900; #ì˜¤ë¥˜ ì´ìœ  out of range
 		long lNum = 12345678900L;
 		
-		// 1. ÀÚ·áÇü(data type) - ½Ç¼ö Ç¥Çö
-		// ºÎµ¿ ¼Ò¼öÁ¡ ¹æ½Ä  > Áö¼ö¿Í °¡¼ö·Î ³ª´©¾î¼­ Ç¥ÇöÇÑ´Ù.
-		// ½Ç¼ö Á¤±ÔÈ­ : °¡¼ö°¡ ¹Ø¼öº¸´Ù ÀÛÀº ÇÑ ÀÚ¸®±îÁö °¡¼ö·Î Ç¥ÇöµÇ´Â°Í.
-		// ÄÄÇ»ÅÍ¿¡¼­´Â ¹Ø¼ö°¡ 2 ÀÌ¹Ç·Î Á¤±ÔÈ­¸¦ ÇÏ°Ô µÇ¸é °¡¼ö ºÎºÐÀÇ Ã¹ ¹ø¤Š ÀÚ¸® ¼ýÀÚ´Â Ç×»ó 1ÀÓ
-		// ¿¹) 0.2 Æ÷Çö 0.4*2**-1 Á¤±ÔÈ­ ÇÏ¸é 1.6 **2**-3
+		// 1. ìžë£Œí˜•(data type) - ì‹¤ìˆ˜ í‘œí˜„
+		// ë¶€ë™ ì†Œìˆ˜ì  ë°©ì‹  > ì§€ìˆ˜ì™€ ê°€ìˆ˜ë¡œ ë‚˜ëˆ„ì–´ì„œ í‘œí˜„í•œë‹¤.
+		// ì‹¤ìˆ˜ ì •ê·œí™” : ê°€ìˆ˜ê°€ ë°‘ìˆ˜ë³´ë‹¤ ìž‘ì€ í•œ ìžë¦¬ê¹Œì§€ ê°€ìˆ˜ë¡œ í‘œí˜„ë˜ëŠ”ê²ƒ.
+		// ì»´í“¨í„°ì—ì„œëŠ” ë°‘ìˆ˜ê°€ 2 ì´ë¯€ë¡œ ì •ê·œí™”ë¥¼ í•˜ê²Œ ë˜ë©´ ê°€ìˆ˜ ë¶€ë¶„ì˜ ì²« ë²ˆÂŠ ìžë¦¬ ìˆ«ìžëŠ” í•­ìƒ 1ìž„
+		// ì˜ˆ) 0.2 í¬í˜„ 0.4*2**-1 ì •ê·œí™” í•˜ë©´ 1.6 **2**-3
 		
-		double dnum = 3.14; //8¹ÙÀÌÆ®
-		float fnum = 3.14f; //4¹ÙÀÌÆ®
+		double dnum = 3.14; //8ë°”ì´íŠ¸
+		float fnum = 3.14f; //4ë°”ì´íŠ¸
 		
 		System.out.println(dnum);
 		System.out.println(fnum);
 		
-		// ºÎµ¿ ¼Ò¼öÁ¡ ¹æ½ÄÀÇ ¿À·ù
+		// ë¶€ë™ ì†Œìˆ˜ì  ë°©ì‹ì˜ ì˜¤ë¥˜
 		double ddnum = 1;
 		for(int i = 0; i <10000; i++) {
 			ddnum = ddnum +0.1;
 		}
-		System.out.println(ddnum); // 1001.000000000159 ÀÌ Ãâ·ÂµÇ¾îÁø´Ù.
+		System.out.println(ddnum); // 1001.000000000159 ì´ ì¶œë ¥ë˜ì–´ì§„ë‹¤.
 		
 		System.out.println("--------------------");
 		
 		
-		}
+	}
 	}
