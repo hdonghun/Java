@@ -6,7 +6,7 @@ public class day2 {
 		// TODO Auto-generated method stub
 
 		
-		// 1. ÀÚ·áÇü ¹®ÀÚ
+		// 1. ìë£Œí˜• ë¬¸ì
 				char ch1 = 'A';
 				System.out.println(ch1);
 				System.out.println((int)ch1);
@@ -19,13 +19,13 @@ public class day2 {
 				System.out.println(ch3);
 				System.out.println((char)ch3);
 				
-				char han = 'ÇÑ';
+				char han = 'í•œ';
 				char ch = '\uD55C';
 				System.out.println(han);
 				System.out.println(ch);
 		System.out.println("--------------------------");
 				
-		// 2. ÀÚ·áÇü - ³í¸®Çü°ú ÀÚ·áÇü ¾øÀÌ º¯¼ö »ç¿ëÇÏ±â 
+		// 2. ìë£Œí˜• - ë…¼ë¦¬í˜•ê³¼ ìë£Œí˜• ì—†ì´ ë³€ìˆ˜ ì‚¬ìš©í•˜ê¸° 
 				var i = 10;
 				var j = 10.0;
 				var str = "hello";
@@ -40,26 +40,26 @@ public class day2 {
 				System.out.println(str);
 				System.out.println("--------------------------");
 				
-		//3. »ó¼ö ¼±¾ğÇÏ±â (º¯ÇÏÁö ¾Ê´Â ¼ö)
+		//3. ìƒìˆ˜ ì„ ì–¸í•˜ê¸° (ë³€í•˜ì§€ ì•ŠëŠ” ìˆ˜)
 				final int MAX_NUM = 100;
 				final int MIN_NUM;
 				MIN_NUM=0;
 				System.out.println(MAX_NUM);
 				System.out.println(MIN_NUM);
 				
-			//Çüº¯È¯
-				System.out.println("---------Çüº¯È¯---------");
-				byte bNum = 125; //2¹ÙÀÌÆ®
-				int iNum =bNum;	//4¹ÙÀÌÆ®  : ¹®Á¦¾øÀ½
+			//í˜•ë³€í™˜
+				System.out.println("---------í˜•ë³€í™˜---------");
+				byte bNum = 125; //2ë°”ì´íŠ¸
+				int iNum =bNum;	//4ë°”ì´íŠ¸  : ë¬¸ì œì—†ìŒ
 				System.out.println(iNum);
 				
-				int aNum =255; //4¹ÙÀÌÆ®
-				byte cNum = (byte)aNum; //2¹ÙÀÌÆ® : ¹®Á¦ÀÖÀ½ > Çüº¯È¯ > µ¥ÀÌÅÍ¼Õ½Ç ¹ß»ı
+				int aNum =255; //4ë°”ì´íŠ¸
+				byte cNum = (byte)aNum; //2ë°”ì´íŠ¸ : ë¬¸ì œìˆìŒ > í˜•ë³€í™˜ > ë°ì´í„°ì†ì‹¤ ë°œìƒ
 				System.out.println(cNum);
 				
-				double dNum = 3.14; //8¹ÙÀÌÆ®
-				int inum = (int)dNum; //4¹ÙÀÌÆ® °­Á¦Çüº¯È¯
-				System.out.println(inum); //µ¥ÀÌÅÍ¼Õ½Ç
+				double dNum = 3.14; //8ë°”ì´íŠ¸
+				int inum = (int)dNum; //4ë°”ì´íŠ¸ ê°•ì œí˜•ë³€í™˜
+				System.out.println(inum); //ë°ì´í„°ì†ì‹¤
 				
 				double zNum = 1.2;
 				float fNum = 0.9F;
@@ -68,5 +68,5 @@ public class day2 {
 				System.out.println(yNum1);
 				System.out.println(yNum2);
 				
-	}
+}
 }
