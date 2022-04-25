@@ -1,4 +1,4 @@
-package Myself_Part2_°´Ã¼ÁöÇâ;
+package Myself_Part2_ê°ì²´ì§€í–¥;
 
 public class day5_Student_1 {
 
@@ -18,7 +18,7 @@ public class day5_Student_1 {
 	
 	public String showStudentInfo() {
 		
-		return studentName + "ÇĞ»ıÀÇ ÇĞ¹øÀº " + studentNumber+ "ÀÌ°í, "+grade+"ÇĞ³â ÀÔ´Ï´Ù.";
+		return studentName + "í•™ìƒì˜ í•™ë²ˆì€ " + studentNumber+ "ì´ê³ , "+grade+"í•™ë…„ ì…ë‹ˆë‹¤.";
 				
  }
 }
