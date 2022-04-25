@@ -1,20 +1,20 @@
-package Myself_Part2_°´Ã¼ÁöÇâ;
+package Myself_Part2_ê°ì²´ì§€í–¥;
 
 public class day5_StudentTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-		day5_Student studentHan = new day5_Student(); //ÀÎ½ºÅÏ½º(»ı¼ºÀÚ¸¦ È£ÃâÇØ¼­)(Èü¸Ş¸ğ¸®¿¡) > Student Å¬·¡½º¸¦ ±â¹İÀ¸·Î
+		day5_Student studentHan = new day5_Student(); //ì¸ìŠ¤í„´ìŠ¤(ìƒì„±ìë¥¼ í˜¸ì¶œí•´ì„œ)(í™ë©”ëª¨ë¦¬ì—) > Student í´ë˜ìŠ¤ë¥¼ ê¸°ë°˜ìœ¼ë¡œ
 		studentHan.studentID = 12345;
 		studentHan.setStudentName("Han");
-		studentHan.address = "´ëÀü ¼­±¸ µµ¾Èµ¿";
+		studentHan.address = "ëŒ€ì „ ì„œêµ¬ ë„ì•ˆë™";
 		studentHan.showStudentInfo();
 		
 		day5_Student studentLee = new day5_Student();
 		studentLee.studentID = 54321;
 		studentLee.setStudentName("Lee");
-		studentLee.address = "´ëÀü ¼­±¸ µĞ»êµ¿";
+		studentLee.address = "ëŒ€ì „ ì„œêµ¬ ë‘”ì‚°ë™";
 		studentLee.showStudentInfo();
 	
 		
