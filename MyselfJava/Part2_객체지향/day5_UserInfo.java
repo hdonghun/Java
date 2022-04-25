@@ -1,4 +1,4 @@
-package Myself_Part2_°´Ã¼ÁöÇâ;
+package Myself_Part2_Â°Â´ÃƒÂ¼ÃÃ¶Ã‡Ã¢;
 
 public class day5_UserInfo {
 
