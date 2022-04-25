@@ -1,4 +1,4 @@
-package day6_Á¢±ÙÁ¦¾îÀÚ¿ÍÁ¤º¸Àº´Ğ;
+package day6_ÃÂ¢Â±Ã™ÃÂ¦Â¾Ã®Ã€ÃšÂ¿ÃÃÂ¤ÂºÂ¸Ã€ÂºÂ´Ã;
 
 public class BirthDayTest {
 
