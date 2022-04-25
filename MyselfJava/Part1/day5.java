@@ -5,7 +5,7 @@ public class day5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// 1. ��ø �ݺ���
+		// 1. ÁßÃ¸ ¹Ýº¹¹®
 		//for
 		int dan;
 		int count;
