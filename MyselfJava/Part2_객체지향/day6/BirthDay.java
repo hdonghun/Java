@@ -1,4 +1,4 @@
-package day6_Á¢±ÙÁ¦¾îÀÚ¿ÍÁ¤º¸Àº´Ğ;
+package day6_ì ‘ê·¼ì œì–´ìì™€ì •ë³´ì€ë‹‰;
 
 public class BirthDay {
 
@@ -6,7 +6,7 @@ public class BirthDay {
 	private int month;
 	private int year;
 	
-	private boolean isValid; //µğÆúÆ®°ª false!
+	private boolean isValid; //ë””í´íŠ¸ê°’ false!
 	
 	public int getDay() {
 		return day;
@@ -14,7 +14,7 @@ public class BirthDay {
 	public void setDay(int day) {
 		this.day = day;
 	}
-	//Generate Gets and SetsÀ» ÀÌ¿ëÇÏ¿©! ³ª¸ÓÁö 2°¡Áö¸¦ °£´ÜÇÏ°Ô ¸¸µç´Ù!
+	//Generate Gets and Setsì„ ì´ìš©í•˜ì—¬! ë‚˜ë¨¸ì§€ 2ê°€ì§€ë¥¼ ê°„ë‹¨í•˜ê²Œ ë§Œë“ ë‹¤!
 	public int getMonth() {
 		return month;
 	}
@@ -39,13 +39,13 @@ public class BirthDay {
 	
 	public void showDate() {
 		if(isValid) {
-			System.out.println(year + "³â "+month+"¿ù "+day+"ÀÏ ÀÔ´Ï´Ù.");
+			System.out.println(year + "ë…„ "+month+"ì›” "+day+"ì¼ ì…ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("À¯È¿ÇÏÁö ¾Ê´Â ³¯Â¥ ÀÔ´Ï´Ù.");
+			System.out.println("ìœ íš¨í•˜ì§€ ì•ŠëŠ” ë‚ ì§œ ì…ë‹ˆë‹¤.");
 		}
 	}
 	
-	
+
 	
 }
