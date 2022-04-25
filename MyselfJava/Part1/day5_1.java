@@ -20,7 +20,7 @@ public class day5_1 {
 		System.out.println(num);
 		
 		
-		
+	
 	}
 
 }
