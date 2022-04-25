@@ -6,8 +6,8 @@ public class day5_1 {
 		// TODO Auto-generated method stub
 
 		
-		// 1.break¹® »ç¿ëÇÏ±â
-		// Áß°£¿¡ ¸ØÃß´Â break¹®, ¹«½ÃÇÏ°í °è¼Ó ÁøÇàÇÏ´Â continue¹®
+		// 1.breakë¬¸ ì‚¬ìš©í•˜ê¸°
+		// ì¤‘ê°„ì— ë©ˆì¶”ëŠ” breakë¬¸, ë¬´ì‹œí•˜ê³  ê³„ì† ì§„í–‰í•˜ëŠ” continueë¬¸
 		
 		int sum = 0;
 		int num;
