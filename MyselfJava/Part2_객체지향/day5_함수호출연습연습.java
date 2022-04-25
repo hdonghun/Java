@@ -1,6 +1,6 @@
-package Myself_Part2_°´Ã¼ÁöÇâ;
+package Myself_Part2_ê°ì²´ì§€í–¥;
 
-public class day5_ÇÔ¼öÈ£Ãâ¿¬½À¿¬½À {
+public class day5_í•¨ìˆ˜í˜¸ì¶œì—°ìŠµì—°ìŠµ {
 
 	public static int addNum(int num1, int num2) {
 	
@@ -27,7 +27,7 @@ public class day5_ÇÔ¼öÈ£Ãâ¿¬½À¿¬½À {
 		int n2=20;
 		int total =addNum(n1, n2);
 		System.out.println(total);
-		sayHello("¾È³çÇÏ¼¼¿ä");
+		sayHello("ì•ˆë…•í•˜ì„¸ìš”");
 		total = calcSum();
 		System.out.println(total);	
 	}
