@@ -1,4 +1,4 @@
-package Myself_Part2_°´Ã¼ÁöÇâ;
+package Myself_Part2_ê°ì²´ì§€í–¥;
 
 public class day5_Student {
 
@@ -7,7 +7,7 @@ public class day5_Student {
 	public String address;
 	
 	public void showStudentInfo() {
-		System.out.println(studentID+" ÇĞ¹ø ÇĞ»ıÀÇ ÀÌ¸§Àº "+studentName+"ÀÌ°í, ÁÖ¼Ò´Â "+address+"ÀÔ´Ï´Ù.");
+		System.out.println(studentID+" í•™ë²ˆ í•™ìƒì˜ ì´ë¦„ì€ "+studentName+"ì´ê³ , ì£¼ì†ŒëŠ” "+address+"ì…ë‹ˆë‹¤.");
 	}
 	public String getStudentName(){
 		return studentName;
