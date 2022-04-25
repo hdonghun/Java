@@ -30,5 +30,4 @@ public class day5 {
 			System.out.println();
 		}
 	}
-
 }
