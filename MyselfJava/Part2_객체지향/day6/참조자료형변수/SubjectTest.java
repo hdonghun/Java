@@ -1,15 +1,15 @@
-package day6_ÂüÁ¶ÀÚ·áÇüº¯¼ö;
+package day6_ì°¸ì¡°ìë£Œí˜•ë³€ìˆ˜;
 
 public class SubjectTest {
 	public static void main(String[] args) {
 		
 		Student studentHan = new Student(100, "Han");
-		studentHan.setKoreaSubject("±¹¾î", 100);
-		studentHan.setMathSubject("¼öÇĞ", 100);
+		studentHan.setKoreaSubject("êµ­ì–´", 100);
+		studentHan.setMathSubject("ìˆ˜í•™", 100);
 		
 		Student studentLee = new Student(200,"Lee");
-		studentLee.setKoreaSubject("±¹¾î", 90);
-		studentLee.setMathSubject("¼öÇĞ", 90);
+		studentLee.setKoreaSubject("êµ­ì–´", 90);
+		studentLee.setMathSubject("ìˆ˜í•™", 90);
 		
 		studentHan.showScoreInfo();
 		studentLee.showScoreInfo();
