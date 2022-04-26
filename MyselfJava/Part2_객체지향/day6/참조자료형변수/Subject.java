@@ -1,4 +1,4 @@
-package day6_ÂüÁ¶ÀÚ·áÇüº¯¼ö;
+package day6_Ã‚Ã¼ÃÂ¶Ã€ÃšÂ·Ã¡Ã‡Ã¼ÂºÂ¯Â¼Ã¶;
 
 public class Subject {
 
