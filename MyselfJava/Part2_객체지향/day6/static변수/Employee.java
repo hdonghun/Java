@@ -1,8 +1,8 @@
-package day6_staticº¯¼ö;
+package day6_staticë³€ìˆ˜;
 
 public class Employee {
 
-	//Static º¯¼ö!
+	//Static ë³€ìˆ˜!
 	private static int serialNum = 1000;
 	
 	private int employeeId;
@@ -18,9 +18,9 @@ public class Employee {
 		// Generate Getters and Setters;
 	// static Getter!
 	public static int getSerialNum() {
-		int i = 0; //Áö¿ªº¯¼ö
-		//ÀÎ½ºÅÏ½ºº¯¼ö »ç¿ë¸øÇÔ// 
-		return serialNum; //static º¯¼ö
+		int i = 0; //ì§€ì—­ë³€ìˆ˜
+		//ì¸ìŠ¤í„´ìŠ¤ë³€ìˆ˜ ì‚¬ìš©ëª»í•¨// 
+		return serialNum; //static ë³€ìˆ˜
 	}
 	
 	public int getEmployeeId() {
