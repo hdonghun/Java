@@ -1,18 +1,18 @@
-package day6_ÂüÁ¶ÀÚ·áÇüº¯¼ö;
+package day6_ì°¸ì¡°ìë£Œí˜•ë³€ìˆ˜;
 
 public class Student {
-//ÂüÁ¶ÀÚ·áÇüº¯¼ö
+//ì°¸ì¡°ìë£Œí˜•ë³€ìˆ˜
 	int studentId;
 	String studentName;
 	
 	Subject korea;
 	Subject math;
 	
-	Student(int studentId, String studentName){ //»ı¼ºÀÚ!
+	Student(int studentId, String studentName){ //ìƒì„±ì!
 		this.studentId = studentId;
 		this.studentName = studentName;
 		
-		korea = new Subject(); //Á÷Á¢ »ı¼ºÀ» ÇØÁà¾ß ÇÑ´Ù ¿Ö?? ¸â¹öº¯¼öÀÇ ÂüÁ¶ÀÚ·áÇüÀ» °¡Á®´Ù°¡ »ç¿ëÇÒ ¼ö ÀÖ´Ù?
+		korea = new Subject(); //ì§ì ‘ ìƒì„±ì„ í•´ì¤˜ì•¼ í•œë‹¤ ì™œ?? ë©¤ë²„ë³€ìˆ˜ì˜ ì°¸ì¡°ìë£Œí˜•ì„ ê°€ì ¸ë‹¤ê°€ ì‚¬ìš©í•  ìˆ˜ ìˆë‹¤?
 		math = new Subject(); 	
 	}
 
@@ -27,7 +27,7 @@ public class Student {
 	}
 	public void showScoreInfo() {
 		int total = korea.score+math.score;
-		System.out.println(studentName + "ÇĞ»ıÀÇ ÃÑÁ¡Àº "+total+"Á¡ ÀÔ´Ï´Ù.");
+		System.out.println(studentName + "í•™ìƒì˜ ì´ì ì€ "+total+"ì  ì…ë‹ˆë‹¤.");
 	}
 	
 }
