@@ -1,4 +1,4 @@
-package day6_°´Ã¼ÀÚ½ÅÀ»°¡¸£Å°´Âthis;
+package day6_Â°Â´ÃƒÂ¼Ã€ÃšÂ½Ã…Ã€Â»Â°Â¡Â¸Â£Ã…Â°Â´Ã‚this;
 
 public class Person {
 	
