@@ -1,4 +1,4 @@
-package day6_�迭array;
+package day6_¹è¿­array;
 
 public class ArrayTest {
 
