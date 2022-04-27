@@ -1,4 +1,4 @@
-package day6_½Ì±ÛÅæÆĞÅÏ_º¹½À;
+package day6_ËÄšÄ…Å°Ä¹Ä‡Ä†ÄÄ¹Ä_ÅŸÅ¡ËÅ”;
 
 public class Car {
 	
