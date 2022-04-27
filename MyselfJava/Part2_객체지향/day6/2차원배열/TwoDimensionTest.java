@@ -1,4 +1,4 @@
-package day6_2Â÷¿ø¹è¿­;
+package day6_2Ã‚Ã·Â¿Ã¸Â¹Ã¨Â¿Â­;
 
 public class TwoDimensionTest {
 	public static void main(String[] args) {
