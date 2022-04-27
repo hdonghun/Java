@@ -1,14 +1,14 @@
-package day7_´Ù¿îÄ³½ºÆÃ;
+package day7_ë‹¤ìš´ìºìŠ¤íŒ…;
 
 import java.util.ArrayList;
 
-//ÇÏ³ªÀÇ ÄÚµå°¡ ¿©·¯ ÀÚ·áÇüÀ¸·Î ±¸ÇöµÇ¾î ½ÇÇàµÇ´Â °Í
-// °°Àº ÄÚµå¿¡¼­ ¿©·¯ ´Ù¸¥ ½ÇÇà °á°ú°¡ ³ª¿È
-// Á¤º¸Àº´Ğ, »ó¼Ó°ú ´õºÒ¾î °´Ã¼ÁöÇâ ÇÁ·Î±×·¡¹ÖÀÇ °¡Àå Å« Æ¯Â¡ Áß ÇÏ³ªÀÓ
-// ´ÙÇü¼ºÀ» Àß È°¿ëÇÏ¸é À¯¿¬ÇÏ°í È®Àå¼ºÀÖ°í, À¯Áöº¸¼ö°¡ Æí¸®ÇÑ ÇÁ·Î±×·¥À» ¸¸µé¼ö ÀÖÀ½
+//í•˜ë‚˜ì˜ ì½”ë“œê°€ ì—¬ëŸ¬ ìë£Œí˜•ìœ¼ë¡œ êµ¬í˜„ë˜ì–´ ì‹¤í–‰ë˜ëŠ” ê²ƒ
+// ê°™ì€ ì½”ë“œì—ì„œ ì—¬ëŸ¬ ë‹¤ë¥¸ ì‹¤í–‰ ê²°ê³¼ê°€ ë‚˜ì˜´
+// ì •ë³´ì€ë‹‰, ìƒì†ê³¼ ë”ë¶ˆì–´ ê°ì²´ì§€í–¥ í”„ë¡œê·¸ë˜ë°ì˜ ê°€ì¥ í° íŠ¹ì§• ì¤‘ í•˜ë‚˜ì„
+// ë‹¤í˜•ì„±ì„ ì˜ í™œìš©í•˜ë©´ ìœ ì—°í•˜ê³  í™•ì¥ì„±ìˆê³ , ìœ ì§€ë³´ìˆ˜ê°€ í¸ë¦¬í•œ í”„ë¡œê·¸ë¨ì„ ë§Œë“¤ìˆ˜ ìˆìŒ
 		class Animal{
 			public void move() {
-				System.out.println("µ¿¹°ÀÌ ¿òÁ÷ÀÔ´Ï´Ù. ");
+				System.out.println("ë™ë¬¼ì´ ì›€ì§ì…ë‹ˆë‹¤. ");
 			}
 		}
 		
@@ -16,10 +16,10 @@ import java.util.ArrayList;
 			public static Human human;
 			@Override
 			public void move() {
-				System.out.println("»ç¶÷ÀÌ µÎ ¹ß·Î °È½À´Ï´Ù. ");
+				System.out.println("ì‚¬ëŒì´ ë‘ ë°œë¡œ ê±·ìŠµë‹ˆë‹¤. ");
 			}
 		public void readBook() {
-			System.out.println("»ç¶÷ÀÌ Ã¥À» ÀĞ½À´Ï´Ù.");
+			System.out.println("ì‚¬ëŒì´ ì±…ì„ ì½ìŠµë‹ˆë‹¤.");
 			}
 		}
 		
@@ -27,10 +27,10 @@ import java.util.ArrayList;
 			public static Tiger tiger;
 			@Override
 			public void move() {
-				System.out.println("È£¶ûÀÌ°¡ ³× ¹ß·Î ¶İ´Ï´Ù.  ");
+				System.out.println("í˜¸ë‘ì´ê°€ ë„¤ ë°œë¡œ ëœë‹ˆë‹¤.  ");
 			}
 		public void hunting() {
-			System.out.println("È£¶ûÀÌ°¡ »ç³ÉÀ» ÇÕ´Ï´Ù.");
+			System.out.println("í˜¸ë‘ì´ê°€ ì‚¬ëƒ¥ì„ í•©ë‹ˆë‹¤.");
 			}
 		}
 		
@@ -38,10 +38,10 @@ import java.util.ArrayList;
 			public static Eagle eagle;
 			@Override
 			public void move() {
-				System.out.println("µ¶¼ö¸®°¡ ÇÏ´ÃÀ» ³¯¾Æ ´Ù´Õ´Ï´Ù. ");
+				System.out.println("ë…ìˆ˜ë¦¬ê°€ í•˜ëŠ˜ì„ ë‚ ì•„ ë‹¤ë‹™ë‹ˆë‹¤. ");
 			}
 		public void flying() {
-			System.out.println("µ¶¼ö¸®°¡ ¾ç³¯°³¸¦ Âß Æì°í ³¯¾Æ ´Ù´Õ´Ï´Ù.");
+			System.out.println("ë…ìˆ˜ë¦¬ê°€ ì–‘ë‚ ê°œë¥¼ ì­‰ í´ê³  ë‚ ì•„ ë‹¤ë‹™ë‹ˆë‹¤.");
 			}
 		}
 			
@@ -61,17 +61,17 @@ import java.util.ArrayList;
 			animalList.add(tAnimal);
 			animalList.add(eAnimal);
 			
-			//Çâ»óµÈ for¹®!
+			//í–¥ìƒëœ forë¬¸!
 			for(Animal animal : animalList) {
 				animal.move();
 			}
 			
-			// ´Ù¿îÄ³½ºÆÃ!
+			// ë‹¤ìš´ìºìŠ¤íŒ…!
 			System.out.println();
 			test.testDownCasting(animalList);
 		}
 	
-	//´Ù¿î Ä³½ºÆÃ!
+	//ë‹¤ìš´ ìºìŠ¤íŒ…!
 	public void testDownCasting(ArrayList<Animal> list) {
 		for(int i =0; i<list.size(); i++) {
 			Animal animal = list.get(i);
@@ -106,4 +106,4 @@ import java.util.ArrayList;
 	}
 
 }
-// »ó¼Ó > ¸Ş¼­µå ¿À¹ö¶óÀÌµù > ¾÷Ä³½ºÆÃ Çüº¯È¯(»óÀ§Å¬·¡½º·Î) AnimalÅ¸ÀÔÀ¸·Î > °¢°¢ÀÎ½ºÅÏ½º ¸Ş¼­µå°¡ È£Ãâ (move) > HumanÀÌ °¡Áö°í ÀÖ´Â readbookÀÌ³ª È£¶ûÀÌ°¡ °¡Áö°í ÀÖ´Â ÇåÆÃÀº È£Ãâ X > »ç¿ëÇÏ·Á¸é ´Ù¿îÄ³½ºÆÃÇØ¾ßµÊ.
+// ìƒì† > ë©”ì„œë“œ ì˜¤ë²„ë¼ì´ë”© > ì—…ìºìŠ¤íŒ… í˜•ë³€í™˜(ìƒìœ„í´ë˜ìŠ¤ë¡œ) Animalíƒ€ì…ìœ¼ë¡œ > ê°ê°ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œê°€ í˜¸ì¶œ (move) > Humanì´ ê°€ì§€ê³  ìˆëŠ” readbookì´ë‚˜ í˜¸ë‘ì´ê°€ ê°€ì§€ê³  ìˆëŠ” í—ŒíŒ…ì€ í˜¸ì¶œ X > ì‚¬ìš©í•˜ë ¤ë©´ ë‹¤ìš´ìºìŠ¤íŒ…í•´ì•¼ë¨.
