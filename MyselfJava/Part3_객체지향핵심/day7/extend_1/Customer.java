@@ -49,9 +49,9 @@ public class Customer {
 		this.customerGrade = customerGrade;
 	}
 	
-	//Á¤º¸ º¸¿©ÁÖ±â
+	//ì •ë³´ ë³´ì—¬ì£¼ê¸°
 	public String showCustomerInfo() {
-		return customerName+"´ÔÀÇ µî±ŞÀº"+ customerGrade + "ÀÌ¸ç, º¸³Ê½º Æ÷ÀÌÆ®´Â "+bonusPoint+"ÀÔ´Ï´Ù. ";
+		return customerName+"ë‹˜ì˜ ë“±ê¸‰ì€"+ customerGrade + "ì´ë©°, ë³´ë„ˆìŠ¤ í¬ì´íŠ¸ëŠ” "+bonusPoint+"ì…ë‹ˆë‹¤. ";
 	}
 	
 
