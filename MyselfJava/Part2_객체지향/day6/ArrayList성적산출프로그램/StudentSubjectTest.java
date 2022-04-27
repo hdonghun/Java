@@ -1,4 +1,4 @@
-package day6_ArrayList¼ºÀû»êÃâÇÁ·Î±×·¥;
+package day6_ArrayListì„±ì ì‚°ì¶œí”„ë¡œê·¸ë¨;
 
 public class StudentSubjectTest {
 
@@ -6,13 +6,13 @@ public class StudentSubjectTest {
 		// TODO Auto-generated method stub
 
 		Student studentHan = new Student(1001,"Han");
-		studentHan.addSubject("±¹¾î", 100);
-		studentHan.addSubject("¼öÇĞ", 100);
+		studentHan.addSubject("êµ­ì–´", 100);
+		studentHan.addSubject("ìˆ˜í•™", 100);
 		
 		Student studentLee = new Student(1002,"Lee");
-		studentLee.addSubject("±¹¾î", 90);
-		studentLee.addSubject("¼öÇĞ", 86);
-		studentLee.addSubject("¿µ¾î", 88);
+		studentLee.addSubject("êµ­ì–´", 90);
+		studentLee.addSubject("ìˆ˜í•™", 86);
+		studentLee.addSubject("ì˜ì–´", 88);
 		
 		studentLee.showScoreInfo();
 		System.out.println("================");
