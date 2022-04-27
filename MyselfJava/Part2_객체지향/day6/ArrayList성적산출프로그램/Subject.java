@@ -1,4 +1,4 @@
-package day6_ArrayList¼ºÀû»êÃâÇÁ·Î±×·¥;
+package day6_ArrayListÂ¼ÂºÃ€Ã»Â»ÃªÃƒÃ¢Ã‡ÃÂ·ÃÂ±Ã—Â·Â¥;
 
 public class Subject {
 	
