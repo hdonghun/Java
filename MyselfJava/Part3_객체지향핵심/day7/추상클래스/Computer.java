@@ -1,4 +1,4 @@
-package day7_Ãß»óÅ¬·¡½º;
+package day7_ì¶”ìƒí´ë˜ìŠ¤;
 
 public abstract class Computer {
 	
@@ -6,10 +6,10 @@ public abstract class Computer {
 	public abstract void typing();
 	
 	public void turnOn() {
-		System.out.println("Àü¿øÀ» ÄÕ´Ï´Ù. ");
+		System.out.println("ì „ì›ì„ ì¼­ë‹ˆë‹¤. ");
 	}
 	
 	public void turnoff() {
-		System.out.println("Àü¿øÀ» ²ü´Ï´Ù. ");
+		System.out.println("ì „ì›ì„ ë•ë‹ˆë‹¤. ");
 	}
 }
