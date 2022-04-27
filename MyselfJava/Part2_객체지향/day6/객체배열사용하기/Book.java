@@ -1,4 +1,4 @@
-package day6_��ü�迭����ϱ�;
+package day6_°´Ã¼¹è¿­»ç¿ëÇÏ±â;
 
 public class Book {
 	
