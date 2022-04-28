@@ -1,4 +1,4 @@
-package day8_ÀÎÅÍÆäÀÌ½º±¸ÇöÇÏ±â_»ó¼Ó;
+package day8_ì¸í„°í˜ì´ìŠ¤êµ¬í˜„í•˜ê¸°_ìƒì†;
 
 public class BookShelf extends Shelf implements Queue{
 
