@@ -1,4 +1,4 @@
-package day8_ÀÎÅÍÆäÀÌ½ºÀÇ¿©·¯°¡Áö¿ä¼Ò;
+package day8_ì¸í„°í˜ì´ìŠ¤ì˜ì—¬ëŸ¬ê°€ì§€ìš”ì†Œ;
 
 public interface Calc {
 	
@@ -11,7 +11,7 @@ public interface Calc {
 	int divide(int num1, int num2);
 	
 	default void description() {
-		System.out.println("Á¤¼öÀÇ »çÄ¢¿¬»êÀ» Á¦°øÇÕ´Ï´Ù.");
+		System.out.println("ì •ìˆ˜ì˜ ì‚¬ì¹™ì—°ì‚°ì„ ì œê³µí•©ë‹ˆë‹¤.");
 		myMethod();
 	}
 	
@@ -24,8 +24,8 @@ public interface Calc {
 		return total;
 	}
 	
-	// private ¸Ş¼­µå »ç¿ëÇØº¸±â!!!!
-	// pirvate ¸Ş¼­µå´Â ÀçÁ¤ÀÇ ÇÒ ¼ö ¾ø´Ù.
+	// private ë©”ì„œë“œ ì‚¬ìš©í•´ë³´ê¸°!!!!
+	// pirvate ë©”ì„œë“œëŠ” ì¬ì •ì˜ í•  ìˆ˜ ì—†ë‹¤.
 	private void myMethod() {
 		System.out.println("myMethod");
 	}
