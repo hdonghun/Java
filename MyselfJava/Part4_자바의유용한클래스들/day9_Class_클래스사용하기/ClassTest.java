@@ -1,4 +1,4 @@
-package day9_Class_Å¬·¡½º»ç¿ëÇÏ±â;
+package day9_Class_í´ë˜ìŠ¤ì‚¬ìš©í•˜ê¸°;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -9,7 +9,7 @@ public class ClassTest {
 		// TODO Auto-generated method stub
 
 		
-		Class c1 = Class.forName("day9_Class_Å¬·¡½º»ç¿ëÇÏ±â.Person");
+		Class c1 = Class.forName("day9_Class_í´ë˜ìŠ¤ì‚¬ìš©í•˜ê¸°.Person");
 		
 		Person person = (Person)c1.newInstance();
 		
@@ -27,7 +27,7 @@ public class ClassTest {
 		Person kimPerson = (Person)cons.newInstance(initargs);
 		System.out.println(kimPerson);
 		
-		// ÀÌ ºÎºĞÀº ÀÌÇØÇÏ±â ¾î·Æ´Ù.
+		// ì´ ë¶€ë¶„ì€ ì´í•´í•˜ê¸° ì–´ë µë‹¤.
 		
 		
 		
