@@ -1,14 +1,14 @@
-package day9_ObjectÅ¬·¡½ºÀÇ¸Ş¼­µåÈ°¿ë_toSting_equals;
+package day9_Objectí´ë˜ìŠ¤ì˜ë©”ì„œë“œí™œìš©_toSting_equals;
 
 public class EqualsTest {
 	public static void main(String[] args) throws CloneNotSupportedException {
 		
 		Student std1 = new Student(100,"Han");
 		Student std2 = new Student(100,"Han");
-		Student std3 = std1; //ÁÖ¼Ò°ª¸¸ º¹»ç , °°Àº ÁÖ¼Ò¸¦ °®°Ô ÇÏ´Â.
+		Student std3 = std1; //ì£¼ì†Œê°’ë§Œ ë³µì‚¬ , ê°™ì€ ì£¼ì†Œë¥¼ ê°–ê²Œ í•˜ëŠ”.
 		
 		System.out.println(std1==std2);
-		System.out.println(std1.equals(std2)); //ÁÖ¼Ò´Â ´Ù¸£Áö¸¸, ³í¸®ÀûÀ¸·Î °°´Ù, ¿Ö³Ä ÀçÁ¤ÀÇÇß±â¶§¹®¿¡
+		System.out.println(std1.equals(std2)); //ì£¼ì†ŒëŠ” ë‹¤ë¥´ì§€ë§Œ, ë…¼ë¦¬ì ìœ¼ë¡œ ê°™ë‹¤, ì™œëƒ ì¬ì •ì˜í–ˆê¸°ë•Œë¬¸ì—
 		System.out.println();
 		
 		System.out.println(std1 ==std3);
@@ -34,7 +34,7 @@ public class EqualsTest {
 		
 		System.out.println();
 
-		//¿ø·¡ ÁøÂ¥ ÇØ½¬ÄÚµå ¾Ë¾Æº¸´Â¹ı
+		//ì›ë˜ ì§„ì§œ í•´ì‰¬ì½”ë“œ ì•Œì•„ë³´ëŠ”ë²•
 		System.out.println(System.identityHashCode(std1));
 		System.out.println(System.identityHashCode(std2));
 		System.out.println(System.identityHashCode(std3));
