@@ -11,8 +11,8 @@ public class StringBuilderTest {
 		System.out.println(System.identityHashCode(buffer));
 		buffer.append(android);
 		System.out.println(System.identityHashCode(buffer));
-		//¸Ş¸ğ¸®°¡ °°´Ù.
-		//String builder¸¦ »ç¿ëÇÏÀÚ
+		//ë©”ëª¨ë¦¬ê°€ ê°™ë‹¤.
+		//String builderë¥¼ ì‚¬ìš©í•˜ì
 		
 		
 		
