@@ -1,7 +1,7 @@
 // toString
 // 
 
-package day9_ObjectÅ¬·¡½º_¸ğµçÅ¬·¡½ºÀÇÃÖ»óÀ§Å¬·¡½º;
+package day9_Objectí´ë˜ìŠ¤_ëª¨ë“ í´ë˜ìŠ¤ì˜ìµœìƒìœ„í´ë˜ìŠ¤;
 class Book{
 	
 	private String title;
@@ -22,7 +22,7 @@ class Book{
 public class BookTest{
 	public static void main(String[] args) {
 		
-		Book book = new Book("µ¥¹Ì¾È", "Çì¸£¸¸ Çì¼¼");
+		Book book = new Book("ë°ë¯¸ì•ˆ", "í—¤ë¥´ë§Œ í—¤ì„¸");
 		System.out.println(book);
 		String str = new String("test");
 		System.out.println(str.toString());
