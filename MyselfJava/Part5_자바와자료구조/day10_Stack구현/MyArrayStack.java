@@ -1,6 +1,6 @@
-package day10_Stack�����ϱ�;
+package day10_Stack±¸ÇöÇÏ±â;
 
-import day10_�ڷᱸ��.MyArray;
+import day10_ÀÚ·á±¸Á¶.MyArray;
 
 
 public class MyArrayStack {
