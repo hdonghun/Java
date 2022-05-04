@@ -1,4 +1,4 @@
-package ÀÎÅÍÆäÀÌ½º;
+package ì¸í„°í˜ì´ìŠ¤;
 
 public class FighterTest {
 
@@ -8,15 +8,15 @@ public class FighterTest {
 		Fighter f = new Fighter();
 		
 		if(f instanceof Unit)
-			System.out.println("f´Â UnitÅ¬·¡½ºÀÇ ÀÚ¼ÕÀÔ´Ï´Ù.");
+			System.out.println("fëŠ” Unití´ë˜ìŠ¤ì˜ ìì†ì…ë‹ˆë‹¤.");
 		if(f instanceof Fightable) 
-			System.out.println("f´Â Fightable ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇß½À´Ï´Ù.");
+			System.out.println("fëŠ” Fightable ì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í–ˆìŠµë‹ˆë‹¤.");
 		if(f instanceof Movable) 
-			System.out.println("f´Â Movable ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇß½À´Ï´Ù.");
+			System.out.println("fëŠ” Movable ì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í–ˆìŠµë‹ˆë‹¤.");
 		if(f instanceof Attackable)
-			System.out.println("f´Â Attackable ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇß½À´Ï´Ù.");
+			System.out.println("fëŠ” Attackable ì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í–ˆìŠµë‹ˆë‹¤.");
 		if(f instanceof Object) 
-			System.out.println("f´Â Object Å¬·¡½ºÀÇ ÀÚ¼ÕÀÔ´Ï´Ù.");
+			System.out.println("fëŠ” Object í´ë˜ìŠ¤ì˜ ìì†ì…ë‹ˆë‹¤.");
 			}
 		}
 
