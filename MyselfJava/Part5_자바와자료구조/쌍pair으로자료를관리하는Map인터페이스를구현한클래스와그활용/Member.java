@@ -1,11 +1,11 @@
-package day12_½ÖpairÀ¸·ÎÀÚ·á¸¦°ü¸®ÇÏ´ÂMapÀÎÅÍÆäÀÌ½º¸¦±¸ÇöÇÑÅ¬·¡½º¿Í±×È°¿ë;
+package day12_ìŒpairìœ¼ë¡œìë£Œë¥¼ê´€ë¦¬í•˜ëŠ”Mapì¸í„°í˜ì´ìŠ¤ë¥¼êµ¬í˜„í•œí´ë˜ìŠ¤ì™€ê·¸í™œìš©;
 
 public class Member {
 
 	private int memberId;
 	private String memberName;
 	
-	//ÄÁ½ºÆ®·°ÅÍ
+	//ì»¨ìŠ¤íŠ¸ëŸ­í„°
 	public Member(int memberId, String memberName) {
 		this.memberId = memberId;
 		this.memberName = memberName;
@@ -49,7 +49,7 @@ public class Member {
 
 	@Override
 	public String toString() {
-		return memberName + " È¸¿ø´ÔÀÇ ¾ÆÀÌµğ´Â "+ memberId+"ÀÔ´Ï´Ù.";
+		return memberName + " íšŒì›ë‹˜ì˜ ì•„ì´ë””ëŠ” "+ memberId+"ì…ë‹ˆë‹¤.";
 	}
 
 	
