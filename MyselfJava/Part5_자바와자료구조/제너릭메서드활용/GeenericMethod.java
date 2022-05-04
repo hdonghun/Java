@@ -1,4 +1,4 @@
-package day12_Á¦³×¸¯¸Ş¼¼µåÈ°¿ë;
+package day12_ÃÂ¦Â³Ã—Â¸Â¯Â¸ÃÂ¼Â¼ÂµÃ¥ÃˆÂ°Â¿Ã«;
 
 public class GeenericMethod {
 
