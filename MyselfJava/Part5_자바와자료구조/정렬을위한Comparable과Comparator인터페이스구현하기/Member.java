@@ -1,16 +1,16 @@
-package day12_Á¤·ÄÀ»À§ÇÑComparable°úComparatorÀÎÅÍÆäÀÌ½º±¸ÇöÇÏ±â;
+package day12_ì •ë ¬ì„ìœ„í•œComparableê³¼Comparatorì¸í„°í˜ì´ìŠ¤êµ¬í˜„í•˜ê¸°;
 
 import java.util.Comparator;
 
 public class Member implements Comparator<Member> {
-	//Comparable ¸Å°³º¯¼ö ÇÏ³ª°¡ ³Ñ¾î¿È.
+	//Comparable ë§¤ê°œë³€ìˆ˜ í•˜ë‚˜ê°€ ë„˜ì–´ì˜´.
 	//
 	private int memberId;
 	private String memberName;
 	
 	public Member() {}
 	
-	//ÄÁ½ºÆ®·°ÅÍ
+	//ì»¨ìŠ¤íŠ¸ëŸ­í„°
 	public Member(int memberId, String memberName) {
 		this.memberId = memberId;
 		this.memberName = memberName;
@@ -54,25 +54,25 @@ public class Member implements Comparator<Member> {
 
 	@Override
 	public String toString() {
-		return memberName + " È¸¿ø´ÔÀÇ ¾ÆÀÌµğ´Â "+ memberId+"ÀÔ´Ï´Ù.";
+		return memberName + " íšŒì›ë‹˜ì˜ ì•„ì´ë””ëŠ” "+ memberId+"ì…ë‹ˆë‹¤.";
 	}
 
 	/*
 	@Override
 	public int compareTo(Member member) {
 		
-		//¿À¸§Â÷¼øÀ¸·Î 1À» -1·Î ¹Ù²Ù¸é ³»¸²Â÷¼øÀ¸·Î
+		//ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ 1ì„ -1ë¡œ ë°”ê¾¸ë©´ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ
 		/*if(this.memberId>member.memberId)
 			return 1;
 		else if(this.memberId < member.memberId)
 			return -1;
 		else return 0;
-		//ÀÌ°ÍÀ» ´õ °£´ÜÇÏ°Ô ¾Æ·¡¿Í °°ÀÌ
-		return(this.memberId-member.memberId); //³»¸²Â÷¼øÀ¸·ÎÇÏ·Á¸é °öÇÏ±â-1
+		//ì´ê²ƒì„ ë” ê°„ë‹¨í•˜ê²Œ ì•„ë˜ì™€ ê°™ì´
+		return(this.memberId-member.memberId); //ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œí•˜ë ¤ë©´ ê³±í•˜ê¸°-1
 	}
 	*/ 
 	
-	//Comparator ¸Å°³º¯¼ö2°³, 
+	//Comparator ë§¤ê°œë³€ìˆ˜2ê°œ, 
 	@Override
 	public int compare(Member member1, Member member2) {
 		return (member1.memberId-member2.memberId);
