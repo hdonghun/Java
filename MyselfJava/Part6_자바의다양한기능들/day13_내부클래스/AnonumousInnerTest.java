@@ -1,11 +1,11 @@
-package day13_³»ºÎÅ¬·¡½º;
+package day13_ë‚´ë¶€í´ë˜ìŠ¤;
 
 class Outer2{
 	int outNum =100;
 	static int sNum = 200;
 		
 	Runnable getRunnable(int i) {
-		int num = 10; //Áö¿ªº¯¼ö
+		int num = 10; //ì§€ì—­ë³€ìˆ˜
 	
 		return new Runnable(){
 			int localNum = 1000;
@@ -15,8 +15,8 @@ class Outer2{
 				System.out.println("num = " + num);
 				System.out.println("localNum = "+localNum);
 				
-				System.out.println("outNum = "+ outNum+ "(¿ÜºÎ Å¬·¡½º ÀÎ½ºÅÏ½º º¯¼ö)");
-				System.out.println("Outter.sNum = "+ Outer2.sNum +"(¿ÜºÎ Å¬·¡½º Á¤Àû º¯¼ö)");
+				System.out.println("outNum = "+ outNum+ "(ì™¸ë¶€ í´ë˜ìŠ¤ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜)");
+				System.out.println("Outter.sNum = "+ Outer2.sNum +"(ì™¸ë¶€ í´ë˜ìŠ¤ ì •ì  ë³€ìˆ˜)");
 				}
 			
 			};
