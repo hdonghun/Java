@@ -1,4 +1,4 @@
-package day14_¶÷´Ù½Ä;
+package day14_Â¶Ã·Â´Ã™Â½Ã„;
 
 @FunctionalInterface
 public interface StringConcat {
