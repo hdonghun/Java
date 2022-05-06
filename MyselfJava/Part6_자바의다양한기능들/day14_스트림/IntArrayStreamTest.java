@@ -1,4 +1,4 @@
-package day14_½ºÆ®¸²;
+package day14_ìŠ¤íŠ¸ë¦¼;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
@@ -11,12 +11,12 @@ public class IntArrayStreamTest {
 		for(int num:arr) {
 			System.out.println(num);
 		}
-		//½ºÆ®¸²À» »ç¿ë
+		//ìŠ¤íŠ¸ë¦¼ì„ ì‚¬ìš©
 		System.out.println();
 		IntStream is = Arrays.stream(arr);
 		is.forEach(n->System.out.println(n));
-		//¿¬»êÀ» ÇÏ°í ³ª¼­ is¸¦ ´Ù½Ã »ç¿ë ÇÒ ¼ö ¾ø´Ù.
-		//½ºÆ®¸²Àº ¸Å¹ø Àç»ı¼ºÇØ¾ßµÈ´Ù.
+		//ì—°ì‚°ì„ í•˜ê³  ë‚˜ì„œ isë¥¼ ë‹¤ì‹œ ì‚¬ìš© í•  ìˆ˜ ì—†ë‹¤.
+		//ìŠ¤íŠ¸ë¦¼ì€ ë§¤ë²ˆ ì¬ìƒì„±í•´ì•¼ëœë‹¤.
 		System.out.println();
 		long sum = Arrays.stream(arr).sum();
 		System.out.println(sum);
