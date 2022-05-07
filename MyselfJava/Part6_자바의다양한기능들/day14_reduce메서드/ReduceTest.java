@@ -1,4 +1,4 @@
-package day14_reduce¸Þ¼­µå;
+package day14_reduceë©”ì„œë“œ;
 
 import java.util.Arrays;
 import java.util.function.BinaryOperator;
@@ -17,15 +17,15 @@ class CompareString implements BinaryOperator<String>{
 public class ReduceTest {
 
 	public static void main(String[] args) {
-		String greetings[] = {"¾È³çÇÏ¼¼¿ä~~~", "hello", "Good morning", "¹Ý°©½À´Ï´Ù^^"	};
+		String greetings[] = {"ì•ˆë…•í•˜ì„¸ìš”~~~", "hello", "Good morning", "ë°˜ê°‘ìŠµë‹ˆë‹¤^^"	};
 		
-		//ÀÌ°ÍÀÌ ÁöÀúºÐÇÏ´Ù¸é, À§¿¡ BinaryOperator·Î~~
+		//ì´ê²ƒì´ ì§€ì €ë¶„í•˜ë‹¤ë©´, ìœ„ì— BinaryOperatorë¡œ~~
 		System.out.println(Arrays.stream(greetings).reduce("",(s1,s2)->
 				{if(s1.getBytes().length >= s2.getBytes().length) return s1;
 				else return s2;}
 				));
 		
-		//È£Ãâ¹æ¹ý
+		//í˜¸ì¶œë°©ë²•
 		String str = Arrays.stream(greetings).reduce(new CompareString()).get();
 		System.out.println(str);
 	
