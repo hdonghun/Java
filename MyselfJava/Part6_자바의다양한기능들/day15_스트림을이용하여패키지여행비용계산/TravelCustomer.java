@@ -1,4 +1,4 @@
-package day15_½ºÆ®¸²À»ÀÌ¿ëÇÏ¿©ÆĞÅ°Áö¿©Çàºñ¿ë°è»ê;
+package day15_ìŠ¤íŠ¸ë¦¼ì„ì´ìš©í•˜ì—¬íŒ¨í‚¤ì§€ì—¬í–‰ë¹„ìš©ê³„ì‚°;
 
 public class TravelCustomer {
 	
@@ -6,7 +6,7 @@ public class TravelCustomer {
 	private int age;
 	private int price;
 	
-	//ÄÁ½ºÆ®·°ÅÍ
+	//ì»¨ìŠ¤íŠ¸ëŸ­í„°
 	public TravelCustomer(String name, int age, int price) {
 		this.name = name;
 		this.age = age;
