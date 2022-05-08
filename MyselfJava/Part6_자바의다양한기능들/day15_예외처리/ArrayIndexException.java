@@ -1,4 +1,4 @@
-package day15_¿¹¿ÜÃ³¸®;
+package day15_ì˜ˆì™¸ì²˜ë¦¬;
 
 public class ArrayIndexException {
 
@@ -14,6 +14,6 @@ public class ArrayIndexException {
 			System.out.println(e.getMessage());
 			System.out.println(e.toString());
 		}
-		System.out.println("¿¹¿ÜÃ³¸®·Î ¹®Á¦¾øÀÌ ÁøÇà");
+		System.out.println("ì˜ˆì™¸ì²˜ë¦¬ë¡œ ë¬¸ì œì—†ì´ ì§„í–‰");
 	}
 }
