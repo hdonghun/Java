@@ -1,4 +1,4 @@
-package day16_Â¾Â²Â·Â¹ÂµÃ¥;
+package day16_¾²·¹µå;
 
 class MyThread extends Thread{
 	public void run() {
