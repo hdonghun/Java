@@ -1,4 +1,4 @@
-package Áö³×¸¯½º_Generics;
+package ì§€ë„¤ë¦­ìŠ¤_Generics;
 
 import java.util.ArrayList;
 
@@ -15,14 +15,14 @@ public class FruitBoxEx1 {
 		Box<Fruit> fruitBox = new Box<Fruit>();
 		Box<Apple> appleBox = new Box<Apple>();
 		Box<Toy> toyBox = new Box<Toy>();
-	//	Box<Grape> grapeBox = new Box<Apple>(); ¿¡·¯ ¹ß»ı, Å¸ÀÔ ºÒÀÏÄ¡
+	//	Box<Grape> grapeBox = new Box<Apple>(); ì—ëŸ¬ ë°œìƒ, íƒ€ì… ë¶ˆì¼ì¹˜
 		
 		fruitBox.add(new Fruit());
 		fruitBox.add(new Apple());
 		
 		appleBox.add(new Apple());
 		appleBox.add(new Apple());
-	//	appleBox.add(new Toy());  ¿¡·¯, Box<Apple>¿¡´Â Apple¸¸ ´ãÀ» ¼ö ÀÖÀ½
+	//	appleBox.add(new Toy());  ì—ëŸ¬, Box<Apple>ì—ëŠ” Appleë§Œ ë‹´ì„ ìˆ˜ ìˆìŒ
 		
 		toyBox.add(new Toy());
 		
