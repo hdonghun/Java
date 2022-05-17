@@ -19,13 +19,9 @@ class UserRepositoryTest {
 
     @Test
     void crud(){ // create, read, update, delete
-      //List<User> users = userRepository.findAllById(Lists.newArrayList(1L,3L,5L));
-      //users.forEach(System.out::println);
-      //userRepository.findAll().forEach(System.out::println);
-      // 위와 같은 문법
-        // for(user user : userRepository.findAll(){
-        // System.out.println(user);}
-        userRepository.saveAndFlush(new User("new ,artin","newmartin@fastcampus.com"));
+
+        userRepository.deleteAll(userRepository.findAllById(Lists.newArrayList(1L,3L)));
+        
         userRepository.findAll().forEach(System.out::println);
 
     }
